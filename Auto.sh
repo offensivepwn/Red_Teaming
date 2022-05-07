@@ -1,5 +1,5 @@
 clear
-echo " Welcone to Recon-King"
+echo " Welcome Mate"
 read -p "Please enter url to continue ==> " u
 amass enum -passive -d $u -o ~/scans/$u.txt
 clear
